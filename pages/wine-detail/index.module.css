@@ -1,0 +1,43 @@
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 40px 120px;
+  overflow: hidden;
+}
+
+.column:first-child {
+  float: left;
+  background-color: #f4f4f4;
+}
+
+.column:nth-child(2) {
+  float: right;
+  border-left: 1px solid #ebebeb;
+}
+
+.column:nth-child(2):before {
+  border-left: 1px solid #ebebeb;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.review {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 40px;
+}
+
+.subTitle {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 1px solid #222;
+}
+
+.desc {
+  color: #aaa;
+}

@@ -1,0 +1,54 @@
+.productReview {
+}
+
+.reviewTable {
+  position: relative;
+  margin: 22px 0 0;
+  font-size: 11px;
+  border-top: 1px solid #ebebeb;
+  border-bottom: 1px solid #ebebeb;
+  line-height: 1.5;
+}
+
+.listTitle {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle;
+  padding: 11px 0 10px;
+  text-transform: Capitalize;
+}
+
+.listTitle th:first-child {
+  padding: 0 30px;
+}
+
+.listTitle th:nth-child(2) {
+  padding: 0 145px;
+}
+
+.listTitle th:last-child {
+  padding-right: 103px;
+}
+
+.boardList {
+  display: flex;
+  vertical-align: middle;
+  padding: 11px 0 10px;
+}
+
+.num {
+  min-width: 10px;
+  padding: 0 30px;
+}
+
+.content {
+  min-width: 500px;
+  overflow: hidden;
+  padding-left: 50px;
+  padding-right: 210px;
+}
+
+.writer {
+  min-width: 100px;
+  padding-right: 144px;
+}

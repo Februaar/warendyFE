@@ -1,0 +1,52 @@
+.todayMood {
+  width: 66.6%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.todayMoodList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.todayMoodList li {
+  margin-top: 4.5rem;
+}
+.todayMoodList li + li {
+  margin-top: 4.5rem;
+}
+.todayMoodItem {
+  width: 25rem;
+  height: 13rem;
+  background-color: #9d1617;
+  margin-bottom: 10px;
+  border-radius: 25px;
+}
+
+.todayMoodItem:nth-child(even) {
+  background-color: #b14545;
+}
+
+.todayMoodItem a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
+.todayMoodContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 5.5rem;
+  padding-bottom: 10rem;
+  border-bottom: #ccc solid 1px;
+}

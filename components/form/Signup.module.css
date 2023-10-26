@@ -1,0 +1,75 @@
+.signupArea {
+  margin: 0 400px;
+  padding-top: 55px;
+  padding-bottom: 150px;
+}
+
+.mainTitle {
+  padding-bottom: 50px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.inputBox {
+  padding-bottom: 10px;
+}
+
+.inputTitle {
+  font-size: 13px;
+  letter-spacing: -0.07px;
+  line-height: 18px;
+}
+
+.inputItem {
+  position: relative;
+}
+
+.inputTxt::placeholder {
+  color: #c9c9c9;
+}
+
+.inputTxt {
+  font: inherit;
+  font-size: 15px;
+  letter-spacing: -0.15px;
+  line-height: 22px;
+  padding: 8px 0;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.inputPw {
+  font-size: 15px;
+  line-height: 22px;
+  padding: 8px 0;
+  width: 100%;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.errorMsg {
+  color: #f00;
+  padding-bottom: 20px;
+}
+
+.signup {
+  padding-top: 30px;
+}
+
+.signupBtn {
+  width: 100%;
+  height: 52px;
+  border-radius: 10px;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+}
+
+.unvalidate {
+  color: #fff;
+  background-color: #f1edf3;
+  cursor: default;
+}
+
+.validate {
+  color: #fff;
+  background-color: #a974a7;
+}

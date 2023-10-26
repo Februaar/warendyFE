@@ -1,0 +1,129 @@
+.columnBox {
+  padding-left: 40px;
+  width: 560px;
+}
+
+.columnTop {
+  position: relative;
+}
+
+.productTitle {
+  position: relative;
+}
+
+.country {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.27px;
+  line-height: 19px;
+  margin-bottom: 9px;
+  padding-top: 1px;
+  vertical-align: top;
+  border-bottom: 2px solid #222;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: -0.09px;
+  margin-bottom: 4px;
+}
+
+.vintage {
+  color: rgba(34, 34, 34, 0.5);
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  line-height: 17px;
+}
+
+.productPrice {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  min-height: 44px;
+}
+
+.productPrice .title {
+  color: rgba(34, 34, 34, 0.8);
+  display: inline-block;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.price {
+  float: right;
+  padding-top: 2px;
+  text-align: right;
+}
+
+.amount * {
+  display: inline-block;
+  line-height: 26px;
+  vertical-align: top;
+}
+
+.num {
+  font-size: 20px;
+  letter-spacing: -0.1px;
+}
+
+.won {
+  font-size: 18px;
+  letter-spacing: -0.27px;
+}
+
+.year {
+  font-size: 13px;
+  padding-left: 17px;
+  padding-top: 1px;
+  color: rgba(34, 34, 34, 0.8);
+}
+
+.pairingWith {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.pairingWith .title {
+  display: inline-block;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.pairing {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  padding-top: 20px;
+  border-top: 1px solid #ebebeb;
+}
+
+.pairingDiv:nth-child(2) {
+  padding-left: 50px;
+  padding-right: 50px;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 55px;
+  padding-bottom: 10px;
+}
+
+.productInfo .title {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.productInfo .desc {
+  font-size: 13px;
+  font-weight: normal;
+}

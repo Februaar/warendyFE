@@ -1,0 +1,354 @@
+.reviewPage {
+  display: flex;
+  min-height: 50rem;
+  padding-top: 2rem;
+  border-top: 1px solid #cccccc;
+}
+.subtitle {
+  font-size: 3rem;
+  padding-top: 8.2rem;
+  padding-bottom: 6.8rem;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.detailContainer {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.img {
+  position: relative;
+  bottom: 17rem;
+  width: 100%;
+  height: 50%;
+  margin: auto;
+}
+
+.introBox {
+  width: 50%;
+  height: 100%;
+  padding-left: 6.5rem;
+}
+
+.introFirst {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3rem;
+  font-size: 2.3rem;
+  align-items: center;
+}
+
+.fromBadge {
+  width: 10rem;
+  height: 5rem;
+  background-color: wheat;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  font-weight: bold;
+  border-radius: 5rem;
+}
+
+.wineGrapes {
+  width: 71%;
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+.wineRegion {
+  display: flex;
+  width: 73%;
+  align-items: center;
+}
+
+.wineRegion::before {
+  content: "";
+  display: block;
+  width: 0.3rem;
+  height: 3rem;
+  background-color: black;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.introTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 2.5rem;
+  line-height: 5rem;
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.margin {
+  width: 100%;
+  height: 100%;
+  margin-right: 16rem;
+}
+
+.label {
+  width: 20%;
+  text-align: start;
+  font-size: 2.8rem;
+  padding-left: 1rem;
+}
+
+.progress {
+  width: 100%;
+  height: 1rem;
+  background-color: grey;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+button.rightBtn {
+  width: 50%;
+  height: 50%;
+  font-size: 3rem;
+}
+
+.figureBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
+.figureBox + .figureBox {
+  margin-top: 3.4rem;
+}
+.progress {
+  width: 44.7rem;
+  height: 3.6rem;
+  background-color: grey;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: #ba1628;
+  border-radius: 0.5rem;
+}
+
+.withFoodTitle {
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: lightcoral;
+  color: black;
+  font-size: 1em;
+  text-align: center;
+  margin: 1em;
+  font-size: 2rem;
+}
+
+.detailList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 30vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.detailList > div {
+  margin-top: 3rem;
+  width: 45%;
+  line-height: 5rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+}
+
+.StarRating span {
+  color: gray;
+  font-size: 2em;
+}
+
+.StarRating span:nth-child(-n + 4) {
+  color: yellow;
+}
+
+.reviewContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  margin-top: 6rem;
+  justify-content: flex-start;
+}
+
+.reviewBox {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin-top: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.reviewWriter {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  align-items: center;
+  letter-spacing: 0.1rem;
+}
+
+.reviewComment {
+  font-size: 2.5rem;
+  width: 60%;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-left: 2rem;
+
+  display: flex;
+  justify-content: flex-start;
+}
+
+.reviewSubmit {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+.reviewContent {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+/* styles.module.css */
+.button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem 0.4rem;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button:active {
+  background-color: #004085;
+}
+
+.button:last-child {
+  margin-right: 0;
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 5px;
+}
+
+.reviewSubmit input {
+  flex: 1;
+  height: 5rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+  font-size: 2.3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.reviewSubmit button {
+  width: 20rem;
+  height: 5rem;
+  font-size: 2.2rem;
+  background-color: #ba1628;
+  color: white;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.progressFill {
+  height: 100%;
+  background-color: #ba1628;
+  border-radius: 0.5rem;
+}
+
+.withFood {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.withFoodTitle {
+  font-size: 2rem;
+  line-height: 5rem;
+}
+
+.foodPairings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 70%;
+  font-size: 2rem;
+}
+
+.StarRating span {
+  color: gray;
+  font-size: 2em;
+}
+
+.StarRating span:nth-child(-n + 4) {
+  color: yellow;
+}

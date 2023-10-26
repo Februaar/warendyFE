@@ -1,0 +1,7 @@
+.product {
+  width: 560px;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

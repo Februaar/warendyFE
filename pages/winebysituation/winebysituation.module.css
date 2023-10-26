@@ -1,0 +1,92 @@
+.headerBg {
+  width: 100%;
+}
+.bgInner {
+  width: 66.6%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px grey solid;
+  margin-top: 10rem;
+}
+
+.wineExplainContainer {
+  display: flex;
+  background-color: antiquewhite;
+}
+.subtitle {
+  font-size: 3rem;
+  padding-top: 13rem;
+  margin-left: 10rem;
+  padding-bottom: 4.1rem;
+}
+.wineExplainContents {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 10rem;
+  margin: auto;
+}
+
+.wineName {
+  font-size: 4rem;
+  line-height: 2.9rem;
+  letter-spacing: -0.36px;
+  padding-bottom: 1.9rem;
+  display: flex;
+  margin-left: 10rem;
+  color: darkred;
+}
+
+.wineSub {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin-left: 10rem;
+  margin-bottom: 4.3rem;
+}
+
+.contentArea {
+  min-width: 100rem;
+}
+
+.lovedWines {
+  width: 100%;
+  min-height: 55vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lovedWineList {
+  min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 66.6%;
+  list-style: none;
+  padding: 5rem;
+}
+
+.lovedWineItem {
+  width: 25%;
+  height: 80%;
+  margin: 2.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.pageNumber {
+  display: flex;
+  font-size: 2rem;
+}

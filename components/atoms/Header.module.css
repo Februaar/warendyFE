@@ -1,0 +1,106 @@
+.header {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 3;
+}
+
+.fixed {
+  height: 130px;
+  background-color: #fff;
+}
+
+.header > * {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+
+.headerTop {
+  height: 22px;
+}
+
+.topInner {
+  display: flex;
+  padding: 8px 40px 0;
+}
+
+.topList {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.topItem {
+  margin-right: 25px;
+}
+
+.topItem:last-child {
+  margin-right: 0;
+}
+
+.headerMain {
+  height: 64px;
+}
+
+.mainInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.right {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  min-width: 120px;
+}
+
+.gnbArea {
+  display: flex;
+  align-items: center;
+}
+
+.gnbList {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.gnbItem {
+  margin-right: 40px;
+}
+
+.gnbItem:last-child {
+  margin-right: 0;
+}
+
+.gnbHome {
+  font-weight: 600;
+}
+
+.portalTarget {
+  height: 44px;
+}
+
+.tabList {
+  padding: 13px 40px;
+  font-size: 18px;
+}
+
+.tabList.inline {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tabItem {
+  display: inline-flex;
+}
+
+.tabItem:nth-child(n + 2) {
+  margin-left: 27px;
+}

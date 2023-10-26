@@ -1,0 +1,41 @@
+.lovedWineContainer {
+  min-height: 50vh;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.lovedWines {
+  justify-content: center;
+  flex-direction: column;
+}
+
+.lovedWineTitle {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.lovedWineList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.lovedWineItem {
+  width: 20%;
+  height: auto;
+  text-align: center;
+}
+
+.lovedWineItem a p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.lovedWineItem:nth-child(n + 6) {
+  margin-top: 8rem;
+}

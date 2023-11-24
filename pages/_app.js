@@ -1,9 +1,9 @@
 import React from "react";
 import { RecoilRoot } from "recoil";
+import "../styles/globals.css";
+import "../styles/main.css";
 import Header from "../components/atoms/Header.js";
 import Footer from "../components/atoms/Footer.js";
-import "../styles/reset.css";
-import "../styles/main.css";
 
 const App = ({ Component, pageProps }) => {
   return (

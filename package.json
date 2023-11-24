@@ -6,8 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server --watch data.json --port 5000"
   },
+  "proxy": "http://localhost:4000",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.4.0",
@@ -31,13 +33,13 @@
     "react-responsive-carousel": "^3.2.23",
     "recoil": "^0.7.7",
     "recoil-persist": "^5.1.0",
-    "sweetalert2": "^11.7.20",
-    "typescript": "^5.2.2"
+    "sweetalert2": "^11.7.20"
   },
-  "devDependencies": {},
-  "jest": {
-    "setupFilesAfterEnv": [
-      "<rootDir>/src/setupTests.js"
-    ]
+  "main": "index.js",
+  "repository": "https://github.com/Februaar/warendyFE.git",
+  "author": "Kyungjin Jung <kyoooungjin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "5.3.2"
   }
 }

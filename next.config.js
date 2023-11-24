@@ -1,19 +1,14 @@
-const { createProxyMiddleware } = require("http-proxy-middleware");
+/** @type {import('next').NextConfig} */
 
-module.exports = {
+const nextConfig = {
+  reactStrictMode: true,
   images: {
     domains: ["images.vivino.com"],
   },
-  async rewrites() {
-    return [
-      {
-        source: "/api/:path*",
-        destination: "https://warendy.shop/api/:path*",
-      },
-    ];
-  },
   env: {
-    KAKAO_MAP_KEY: "99d585418706339ae15d964c524e4848",
-    API_KEY: "https://warendy.shop/",
+    PUBLIC_BASE_URL: process.env.PUBLIC_BASE_URL,
+    KAKAO_MAP_KEY: process.env.KAKAO_MAP_KEY,
   },
 };
+
+module.exports = nextConfig;
